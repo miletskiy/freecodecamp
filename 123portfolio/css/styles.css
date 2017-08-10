@@ -1,19 +1,19 @@
 /* font-family: "LatoRegular"; */
 @font-face {
   font-family: "Lato";
-  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  src: url("fonts/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 /* font-family: "LatoBold"; */
 @font-face {
   font-family: "LatoBold";
-  src: url("../fonts/Lato-Bold.ttf") format("truetype");
+  src: url("fonts/Lato-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold; }
 /* font-family: "LatoLight"; */
 @font-face {
   font-family: "LatoLight";
-  src: url("../fonts/Lato-Light.ttf") format("truetype");
+  src: url("fonts/Lato-Light.ttf") format("truetype");
   font-style: italic;
   font-weight: 300; }
 body {
@@ -58,5 +58,27 @@ body > .container {
 
 code {
   font-size: 80%; }
+
+/* Common Styles
+-------------------------------------------------- */
+/* About section
+-------------------------------------------------- */
+.about {
+  background-color: aliceblue; }
+
+/* Contact section
+-------------------------------------------------- */
+.po-contact {
+  margin-bottom: 30vh; }
+
+.po-contact__header {
+  margin-top: 5vh;
+  margin-bottom: 20vh; }
+
+.po-contact__links {
+  margin: 0 auto; }
+  .po-contact__links li {
+    padding: 30px;
+    font-size: 1.5em; }
 
 /*# sourceMappingURL=styles.css.map */
