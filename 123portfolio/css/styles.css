@@ -63,8 +63,20 @@ code {
 -------------------------------------------------- */
 /* About section
 -------------------------------------------------- */
-.about {
+.po-about {
+  padding-top: 15vh;
+  margin-bottom: 10vh; }
+
+.po-about__image {
+  width: 100%;
+  height: 53vh;
+  background: url(../img/lego_progger.jpeg) no-repeat 0 0;
+  background-size: cover; }
+
+.po-about__right-column {
   background-color: aliceblue; }
+  .po-about__right-column p {
+    line-height: 2em; }
 
 /* Contact section
 -------------------------------------------------- */
