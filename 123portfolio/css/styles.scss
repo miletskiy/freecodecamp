@@ -94,19 +94,21 @@ section {
 /* Main section
 -------------------------------------------------- */
 .po-main {
-  background-color: #92cf94;
+  //background-color: #92cf94;
   margin-top: $footer-height;
   height: 100vh;
+  width: 100%;
+  background: url(../img/portfolio.jpg) no-repeat 0 0;
+  background-size: cover;
 }
 
 .po-main__header {
   padding-top: 24vh;
+  color: transparent;
 }
 
 .po-main__sub-header {
-  a {
-    color: #c7254e
-  }
+  color: wheat;
 }
 
 /* Projects section
