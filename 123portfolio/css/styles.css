@@ -61,6 +61,19 @@ code {
 
 /* Common Styles
 -------------------------------------------------- */
+/* Projects section
+-------------------------------------------------- */
+.po-projects {
+  padding-top: 10vh;
+  margin-bottom: 10vh; }
+
+.po-projects__header {
+  margin-bottom: 5vh; }
+
+.po-projects__image {
+  height: 300px !important;
+  width: 100%; }
+
 /* About section
 -------------------------------------------------- */
 .po-about {
