@@ -1,3 +1,5 @@
+/* Variables
+-------------------------------------------------- */
 /* font-family: "LatoRegular"; */
 @font-face {
   font-family: "Lato";
@@ -16,15 +18,6 @@
   src: url("fonts/Lato-Light.ttf") format("truetype");
   font-style: italic;
   font-weight: 300; }
-body {
-  height: 100%;
-  font: 300 16px/1.5 'Lato', Arial, sans-serif;
-  color: #3c3c3c; }
-
-h1 {
-  color: rebeccapurple;
-  font-size: 50px; }
-
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -47,7 +40,7 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 body > .container {
-  padding: 60px 15px 0; }
+  padding: 0 15px 0; }
 
 .container .text-muted {
   margin: 20px 0; }
@@ -61,6 +54,28 @@ code {
 
 /* Common Styles
 -------------------------------------------------- */
+body {
+  height: 100%;
+  font: 300 16px/1.5 'Lato', Arial, sans-serif;
+  color: #3c3c3c; }
+
+h1 {
+  color: white;
+  font-size: 50px; }
+
+/* Main section
+-------------------------------------------------- */
+.po-main {
+  background-color: #92cf94;
+  margin-top: 60px;
+  height: 100vh; }
+
+.po-main__header {
+  padding-top: 24vh; }
+
+.po-main__sub-header a {
+  color: #c7254e; }
+
 /* Projects section
 -------------------------------------------------- */
 .po-projects {
